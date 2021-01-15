@@ -1,0 +1,25 @@
+vue项目打包之后按如下方式运行：
+0、生成vue打包之后的dist目录
+npm run build
+
+1、安装工具
+cnpm i express-generator -g
+
+2、创建express项目
+express expressDemo
+
+3、进入expressDemo目录
+cd expressDemo
+
+4、安装express依赖
+cnpm i
+
+
+5、把dist目录中的所有文件，复制到expressDemo目录下的public目录中
+
+6、启动express项目项目
+npm start
+
+7、在浏览器地址栏里url，启动vue打包后的项目。
+localhost:3000
+
